@@ -8,12 +8,22 @@ import {
   ForbesList,
 } from 'components';
 
+import blogCard from './data/article.json';
+
 export const App = () => {
   return (
     <Section>
       <Container>
         <Heading title="Task 1 Blog Card" bottom />
-        <BlogCard />
+        <BlogCard
+          avatar={blogCard.avatar}
+          description={blogCard.description}
+          name={blogCard.name}
+          poster={blogCard.poster}
+          postedAt={blogCard.postedAt}
+          tag={blogCard.tag}
+          title={blogCard.title}
+        />
 
         <Heading title="Task 2 Statistics" top bottom />
         <Statistics title="Main Statistics" />
