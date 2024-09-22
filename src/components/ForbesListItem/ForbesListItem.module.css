@@ -1,0 +1,22 @@
+.avatar {
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-regular);
+}
+
+.title {
+  color: var(--color-gray);
+  font-weight: 600;
+  font-size: var(--font-large);
+  letter-spacing: 1px;
+  margin-left: 8px;
+}
+
+.capital {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-accent);
+  font-weight: 700;
+  font-size: 24px;
+}
