@@ -10,7 +10,8 @@ import {
 
 import blogCard from './data/article.json';
 import stats from './data/stats.json';
-import forbes from './data/forbes.json'
+import forbes from './data/forbes.json';
+import items from './data/transactions.json';
 
 export const App = () => {
   return (
@@ -34,7 +35,7 @@ export const App = () => {
         <ForbesList forbes={forbes} />
 
         <Heading title="Task 4 Crypto history" top bottom />
-        <CryptoHistory />
+        <CryptoHistory items={items} />
       </Container>
     </Section>
   );
